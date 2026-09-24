@@ -71,18 +71,15 @@ This project is built with reproducibility in mind. Follow these steps to run th
 git clone https://github.com/chls1030/Employee_Management_System.git
 cd Employee_Management_System
 2. Install dependencies:
-code
-Bash
+
 pip install -r requirements.txt
 3. Initialize the Database & Seed Mock Data:
 (This will create company.db and populate it with test employees and historical performance data).
-code
-Bash
+
 python database_setup.py
 python seed_data.py
 4. Launch the Application:
-code
-Bash
+
 python main_eel.py
 🔮 Future Roadmap (Research & Extension)
 As part of continuous improvement, the following architectural upgrades are considered:
@@ -90,14 +87,3 @@ Machine Learning Integration: Replacing static programmatic leveling logic (e.g.
 Cloud Synchronization: Transitioning from local SQLite to AWS RDS/Firebase to support multi-HR concurrent collaboration while preserving the desktop client's speed.
 Advanced Audit Logging: Implementing a dedicated blockchain-inspired immutable ledger for salary and promotion overrides.
 Designed & Developed by Gao Chengcheng
-code
-Code
-### 💡 为什么这样写能打动博士面试官？
-
-1.  **开篇定调高**：用 `Executive Summary`（摘要）替代了普通的简介，直接点出**行业痛点**（数据孤岛、主观偏见）和你的**解决方案**（全生命周期闭环），证明你有很强的发现问题和定义问题的能力（Research Proposal 的核心）。
-2.  **突出逻辑而非语法**：在 `Core Innovations` 部分，没有去罗列“增删改查”这种初级功能，而是强调了**算法（Algorithmic Logic）**和**防御性编程（Safeguards/Edge Cases）**。比如 *Education Acceleration* 和 *Executive Decoupling*，这向教授展示了你具备将复杂现实业务抽象成代码逻辑的**建模能力**。
-3.  **学术界最看重的 Reproducibility（可复现性）**：`How to Run Locally` 部分指令极其清晰，任何教授或博士后只需复制粘贴这 4 行代码，就能完美跑起你的程序，这在学术界是非常受人尊敬的素养。
-4.  **Future Roadmap（画龙点睛）**：这一段直接拔高了项目的科研属性，提到了引入 ML 模型和不可篡改日志，告诉教授：“我不只是个码农，我还有进一步做科研探索的 Vision”。
-
-**最后一步提醒**：
-一定要记得把 Markdown 里的 `![Global Dashboard](link_to_dashboard_screenshot)` 换成你**系统真实的截图链接**！图文并茂是第一生产力！祝你欧陆博士申请顺利！
