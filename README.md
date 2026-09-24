@@ -48,21 +48,21 @@ Unlike standard CRUD applications, this system implements complex, real-world co
 
 **1. Modern Global Dashboard & i18n Support**
 <br>
-<img src="./assets/dashboard.png" alt="Global Dashboard" width="800"/>
+<img src="./github_assets/dashboard.png" alt="Global Dashboard" width="800"/>
 <br>
 <i>Providing instant workforce insights at a glance, with seamless multi-language (English/Chinese) support.</i>
 <br><br><br>
 
 **2. AI Smart Onboarding & Leveling**
 <br>
-<img src="./assets/ai_leveling.png" alt="AI Leveling" width="800"/>
+<img src="./github_assets/ai_leveling.png" alt="AI Leveling" width="800"/>
 <br>
 <i>The AI auto-fill button triggers algorithmic base-leveling using Education + Experience constraints, standardizing salary brackets from Day 1.</i>
 <br><br><br>
 
 **3. The Smart Promotion Engine**
 <br>
-<img src="./assets/promotion_engine.png" alt="Promotion Engine" width="800"/>
+<img src="./github_assets/promotion_engine.png" alt="Promotion Engine" width="800"/>
 <br>
 <i>Automated batch scanning of all eligible employees. Generates human-readable "Engine Reasons" ensuring transparent, data-driven promotion decisions.</i>
 
@@ -73,13 +73,13 @@ Unlike standard CRUD applications, this system implements complex, real-world co
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/recruitment.png" alt="Recruitment" width="100%">
+      <img src="./github_assets/recruitment.png" alt="Recruitment" width="100%">
       <br>
       <b>Recruitment Kanban</b><br>
       <i>Drag-and-drop candidate management tracking hires from sourcing to formal offers.</i>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/performance.png" alt="Performance" width="100%">
+      <img src="./github_assets/performance.png" alt="Performance" width="100%">
       <br>
       <b>Performance Reviews</b><br>
       <i>Continuous tracking of quarterly and annual ratings, feeding directly into the Smart Talent Engine.</i>
@@ -87,13 +87,13 @@ Unlike standard CRUD applications, this system implements complex, real-world co
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/invoices.png" alt="Financial Invoices" width="100%">
+      <img src="./github_assets/invoices.png" alt="Financial Invoices" width="100%">
       <br>
       <b>Financial Invoices</b><br>
       <i>Integrated employee reimbursement tracking with a clear approval workflow and status indicators.</i>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/employees.png" alt="Employee List" width="100%">
+      <img src="./github_assets/employees.png" alt="Employee List" width="100%">
       <br>
       <b>Employee Directory</b><br>
       <i>Centralized personnel management with quick actions for adjusting roles, levels, and status.</i>
@@ -117,7 +117,7 @@ The system operates on a hybrid architecture, designed specifically for standalo
 <details>
   <summary><b>🌍 Click to view: Multi-language (i18n) Support in Action</b></summary>
   <br>
-  <img src="./assets/i18n_menu.png" alt="i18n Menu" width="400">
+  <img src="./github_assets/i18n_menu.png" alt="i18n Menu" width="400">
   <br><i>Seamlessly switch between English, Chinese, Japanese, French, and more.</i>
 </details>
 ---
@@ -133,10 +133,10 @@ Enterprise-grade data segregation is enforced via **Role-Based Access Control (R
   <summary><b>👀 Click to compare: HR Admin View vs. Employee View</b></summary>
   <br>
   <p><b>HR Admin View:</b> Full access to global metrics.</p>
-  <img src="./assets/dashboard.png" alt="HR View" width="800">
+  <img src="./github_assets/dashboard.png" alt="HR View" width="800">
   <br><br>
   <p><b>Employee View:</b> Restricted dashboard protecting company privacy.</p>
-  <img src="./assets/employee_dashboard.png" alt="Employee View" width="800">
+  <img src="./github_assets/employee_dashboard.png" alt="Employee View" width="800">
 </details>
 
 <br>
@@ -145,7 +145,7 @@ Enterprise-grade data segregation is enforced via **Role-Based Access Control (R
 Your talent data is never locked in a black box. The system includes built-in local backup functionalities, allowing administrators to securely export the entire SQLite database at any time.
 
 <div align="center">
-  <img src="./assets/backup.png" alt="System Backup" width="600">
+  <img src="./github_assets/backup.png" alt="System Backup" width="600">
 </div>
 
 ---
