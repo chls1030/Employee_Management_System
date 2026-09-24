@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ 邀请" },
+  "menu": {
+    "dashboard": "仪表盘", "projects": "项目", "calendar": "日历",
+    "leave_management": "休假管理", "settings": "设置",
+    "notification": "通知", "help": "帮助中心",
+    "team_management": "团队管理", "performance": "绩效考核",
+    "smart_promotions": "智能晋升", "payrolls": "薪资管理",
+    "invoices": "财务中心", "employees": "员工名册", "recruitment": "招聘与录用"
+  },
+  "dashboard": {
+    "quick_search": "全局快速搜索...", "total_employees": "员工总数",
+    "fulltime": "全职员工", "freelance": "兼职/自由职业",
+    "attendance_overview": "出勤概览", "performance_ratings": "绩效评分",
+    "export_data": "导出数据"
+  },
+  "invoice": {
+    "total_expenses": "总支出", "pending_approvals": "待审批",
+    "total_paid": "已支付总额"
+  },
+  "pages": {
+    "projects_title": "项目", "projects_empty": "未找到项目。创建一个吧！",
+    "calendar_title": "日历", "leave_title": "休假管理",
+    "settings_title": "系统设置", "settings_backup": "系统备份",
+    "settings_backup_desc": "将您的数据库安全地备份到本地文件。",
+    "settings_backup_btn": "立即备份数据库", "notification_title": "消息通知",
+    "notification_empty": "暂无新通知。", "help_title": "帮助与支持中心",
+    "invoice_title": "财务报销单", "invoice_desc": "管理员工报销和账单记录。",
+    "invoice_empty": "未找到发票记录。",
+    "payrolls_title": "薪资调整历史", "performance_title": "绩效考核记录",
+    "promotions_title": "智能晋升引擎", "promotions_desc": "基于绩效、合规性和任期的AI驱动人才评估。",
+    "employees_title": "全体员工列表", "recruitment_title": "招聘与录用",
+    "adjustment_records": "调薪记录"
+  },
+  "table": {
+    "employee": "员工姓名", "type": "类型", "duration": "时长", "reason": "原因",
+    "status": "状态", "actions": "操作", "date": "日期", "amount": "金额",
+    "category": "类别", "level": "级别", "department": "部门",
+    "invoice_no": "单号",
+    "review_cycle": "评估周期", "rating": "评级", "comments": "评语", "evaluator": "评估人",
+    "candidate_name": "候选人姓名", "promotion_path": "晋升路径", "tenure_level": "当前职级/司龄",
+    "recent_ratings": "近期绩效", "engine_reason": "引擎推荐理由",
+    "level_change": "职级变更", "salary_change": "薪资变更"
+  },
+  "buttons": {
+    "new_project": "+ 新建项目", "run_engine": "运行分析", "export_report": "导出报告",
+    "add_review": "+ 添加新评估", "add_employee": "+ 添加新员工",
+    "job_openings": "招聘职位", "candidates_board": "候选人看板",
+    "new_invoice": "+ 新建报销"
+  },  
+  "dynamic": {
+    "status_paid": "已支付", "status_pending": "待处理", "status_rejected": "已拒绝",
+    "status_open": "开启", "status_closed": "关闭", "stage_sourced": "已寻访",
+    "stage_interviewing": "面试中", "stage_offered": "已发Offer",
+    "btn_arrange_interview": "安排面试", "btn_send_offer": "发送Offer",
+    "btn_convert_employee": "转为正式员工", "empty_jobs": "未找到空缺职位。",
+    "click_run_engine": "点击“运行分析”以发现符合晋升条件的候选人。",
+    "no_adjustment_records": "暂无薪资调整记录。",
+    "no_eligible_candidates": "根据当前政策，本周期未找到符合晋升条件的候选人。"
+  }
+}

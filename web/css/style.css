@@ -1,0 +1,617 @@
+/* ==========================================================================
+   1. 变量定义 (Indigo Modern Theme)
+   ========================================================================== */
+:root {
+    --primary-color: #6366f1;       /* 现代靛蓝色 */
+    --primary-hover: #4f46e5;
+    --primary-light: rgba(99, 102, 241, 0.1);
+    --bg-body: #f8fafc;            /* 极浅蓝灰背景 */
+    --sidebar-bg: #ffffff;
+    --text-main: #1e293b;          /* 深蓝灰文字 */
+    --text-muted: #64748b;         /* 次要文字 */
+    --border-color: #f1f5f9;
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    
+    --radius-lg: 24px;
+    --radius-md: 12px;
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.06);
+}
+
+/* ==========================================================================
+   2. 全局基础样式
+   ========================================================================== */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.app-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ==========================================================================
+   3. 侧边栏 (Sidebar) 优化
+   ========================================================================== */
+.sidebar {
+    width: 280px;
+    background-color: var(--sidebar-bg);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    z-index: 100;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 32px;
+    padding-left: 8px;
+}
+
+.logo-box {
+    background-color: var(--primary-color);
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(99, 102, 241, 0.3);
+}
+
+.logo-text {
+    font-weight: 800;
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+    color: var(--text-main);
+}
+
+/* 导航链接 */
+.nav-label {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 24px 0 8px 12px;
+}
+
+.sidebar-nav {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    margin-bottom: 4px;
+}
+
+.nav-link i {
+    font-size: 1.1rem;
+    width: 24px;
+    text-align: center;
+    color: #94a3b8; /* 默认灰色图标 */
+}
+
+/* 激活与悬停状态 */
+.nav-link:hover {
+    background-color: #f1f5f9;
+    color: var(--primary-color);
+}
+
+.nav-link.active {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.nav-link.active i {
+    color: var(--primary-color);
+}
+
+/* 侧边栏公告卡片 (图3高对比度风格) */
+.sidebar-promo {
+    margin-top: 20px;
+    background: var(--primary-color);
+    padding: 24px 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+}
+
+.sidebar-promo i {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    opacity: 0.9;
+}
+
+.sidebar-promo p {
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 0.95rem;
+}
+
+.sidebar-promo small {
+    display: block;
+    margin-bottom: 16px;
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+
+.sidebar-promo a {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+
+.sidebar-promo a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* ==========================================================================
+   4. 主内容区与 Header
+   ========================================================================== */
+.main-content {
+    flex: 1;
+    padding: 30px 40px;
+    max-width: calc(100% - 280px);
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* 搜索框 */
+.search-wrapper {
+    background: white;
+    border: 1px solid var(--border-color);
+    padding: 10px 18px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    width: 380px;
+    box-shadow: var(--shadow-sm);
+}
+
+.search-wrapper i { color: #94a3b8; }
+.search-wrapper input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 0.9rem;
+    background: transparent;
+}
+
+/* 顶部操作按钮 */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-icon {
+    background: white;
+    border: 1px solid var(--border-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    color: var(--text-muted);
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icon:hover {
+    background: #f8fafc;
+    color: var(--primary-color);
+}
+
+/* 用户头像组 */
+.user-avatar-group {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.user-avatar-group img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -8px;
+    object-fit: cover;
+}
+
+.user-avatar-group img:first-child { margin-left: 0; }
+
+.more-users {
+    font-size: 11px;
+    background: #f1f5f9;
+    color: var(--text-muted);
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.btn-invite {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.btn-invite:hover {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   5. 欢迎语与子 Header (图3特有)
+
+
+
+
+   
+   /* 修复：给图表外层容器强制设置高度 */
+#view-dashboard .row .col-md-4, 
+#view-dashboard .row .col-md-5, 
+#view-dashboard .row .col-md-7 {
+    display: flex;
+}
+
+.data-card {
+    width: 100%; /* 确保卡片填满列宽 */
+    display: flex;
+    flex-direction: column;
+}
+
+/* 关键修复：强制限制 Canvas 的容器高度 */
+.data-card canvas {
+    max-height: 250px !important; /* 限制图表最大高度 */
+    width: 100% !important;
+}
+
+/* 针对收入图表的特别限制 */
+#incomeChart {
+    height: 250px !important;
+}
+#performanceChart {
+    height: 250px !important;
+}
+/* 修复：侧边栏滚动条美化及布局 */
+.sidebar {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* 隐藏侧边栏那条难看的默认滚动条 */
+.sidebar::-webkit-scrollbar {
+    width: 4px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: #e2e8f0;
+    border-radius: 10px;
+}
+
+/* 修复：公告卡片不要太挤 */
+.sidebar-promo {
+    flex-shrink: 0; /* 禁止卡片被压缩 */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar-nav {
+    flex: 1 0 auto; /* 让导航栏占据空间但不压缩 */
+}
+.main-content {
+    flex: 1;
+    min-width: 0; /* 关键：允许 flex 子元素缩小，防止撑开页面 */
+    overflow-x: hidden;
+}
+
+.app-container {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+/* 抽屉背景遮罩 */
+.drawer-overlay {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.4); z-index: 9999;
+    display: flex; justify-content: flex-end;
+}
+
+/* 抽屉本体 */
+.drawer-content {
+    width: 400px; height: 100%; background: #fff;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+    animation: slideIn 0.3s forwards;
+    display: flex; flex-direction: column;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+.drawer-header {
+    padding: 20px; display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.close-btn { border: none; background: none; font-size: 24px; cursor: pointer; color: #666; }
+.drawer-body { padding: 20px; overflow-y: auto; }
+.info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+
+/* 时间轴核心样式 */
+.timeline {
+    border-left: 2px solid #e2e8f0; /* 左侧那条竖线 */
+    margin-left: 10px; padding-left: 20px; margin-top: 20px;
+}
+.timeline-item { position: relative; margin-bottom: 25px; }
+.timeline-icon {
+    position: absolute; left: -31px; top: 0;
+    width: 20px; height: 20px; background: #fff; border-radius: 50%;
+    font-size: 14px; text-align: center; line-height: 20px;
+}
+.timeline-date { font-size: 12px; color: #888; margin-bottom: 4px; }
+.timeline-title { font-weight: 600; font-size: 14px; margin-bottom: 4px; color: #333;}
+.timeline-desc { font-size: 13px; color: #666; line-height: 1.4; }
+
+/* ==========================================================================
+   新增：Invoices (财务中心) 模块专属样式
+   ========================================================================== */
+
+/* 1. 统计卡片增强：增加悬停浮动效果 */
+.page-view .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(0,0,0,0.03) !important;
+}
+
+.page-view .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* 2. 状态标签 (Badges) 商业化配色：使用浅色背景+深色文字 */
+.badge {
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    border-radius: 8px; /* 圆角矩形风格 */
+}
+
+/* 待审批：橙色系 */
+.bg-warning-subtle {
+    background-color: #fff7ed !important;
+    color: #9a3412 !important;
+    border: 1px solid #ffedd5;
+}
+
+/* 已支付：绿色系 */
+.bg-success-subtle {
+    background-color: #f0fdf4 !important;
+    color: #166534 !important;
+    border: 1px solid #dcfce7;
+}
+
+/* 已驳回：红色系 */
+.bg-danger-subtle {
+    background-color: #fef2f2 !important;
+    color: #991b1b !important;
+    border: 1px solid #fee2e2;
+}
+
+/* 3. 数据表格美化 */
+.data-card {
+    border: 1px solid rgba(0,0,0,0.05);
+    background: #ffffff;
+}
+
+.table thead th {
+    background-color: #f8fafc;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    color: #64748b;
+    border-top: none;
+    padding: 15px 10px;
+}
+
+.table tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f5f9 !important; /* 鼠标悬停时的浅灰色背景 */
+}
+
+/* 表格中的操作按钮 */
+.btn-outline-success:hover {
+    background-color: #22c55e;
+    color: white;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ef4444;
+    color: white;
+}
+
+/* 4. 响应式微调 */
+@media (max-width: 768px) {
+    .row.g-4 {
+        flex-direction: column;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+}
+
+/* =============== 登录界面专属样式 =============== */
+.login-wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8F9FA;
+}
+
+/* 左侧品牌区 */
+.login-left {
+    flex: 1;
+    background: linear-gradient(135deg, #556EE6 0%, #4F46E5 100%); /* 你的品牌蓝渐变 */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-info h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.brand-info p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* 右侧表单区 */
+.login-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+}
+
+.login-logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-color: #556EE6;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.login-logo h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.login-logo p {
+    color: #888;
+    font-size: 14px;
+}
+
+/* 表单输入框 */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px; /* 圆角，与你的图表保持一致 */
+    font-size: 14px;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #556EE6;
+    box-shadow: 0 0 0 3px rgba(85, 110, 230, 0.1); /* 选中时的蓝色光晕 */
+}
+
+/* 登录按钮 */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #556EE6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background-color: #465cdb;
+}
+
+/* 错误提示文字 */
+.error-msg {
+    color: #e53e3e;
+    font-size: 13px;
+    min-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}

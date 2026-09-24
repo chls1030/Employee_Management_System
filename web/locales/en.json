@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ Invite" },
+  "menu": {
+    "dashboard": "Dashboard", "projects": "Projects", "calendar": "Calendar",
+    "leave_management": "Leave Management", "settings": "Settings",
+    "notification": "Notification", "help": "Help & Center",
+    "team_management": "TEAM MANAGEMENT", "performance": "Performance",
+    "smart_promotions": "Smart Promotions", "payrolls": "Payrolls",
+    "invoices": "Invoices", "employees": "Employees", "recruitment": "Recruitment & Hiring"
+  },
+  "dashboard": {
+    "quick_search": "Quick Search...", "total_employees": "Total Employees",
+    "fulltime": "Fulltime Employee", "freelance": "Freelance Employee",
+    "attendance_overview": "Attendance Overview", "performance_ratings": "Performance Ratings",
+    "export_data": "Export Data"
+  },
+  "invoice": {
+    "total_expenses": "Total Expenses", "pending_approvals": "Pending Approvals",
+    "total_paid": "Total Paid"
+  },
+  "pages": {
+    "projects_title": "Projects", "projects_empty": "No projects found. Create one!",
+    "calendar_title": "Calendar", "leave_title": "Leave Management",
+    "settings_title": "Settings", "settings_backup": "System Backup",
+    "settings_backup_desc": "Safely backup your database to a local file.",
+    "settings_backup_btn": "Backup Database Now", "notification_title": "Notifications",
+    "notification_empty": "No new notifications.", "help_title": "Help & Support Center",
+    "invoice_title": "Financial Invoices", "invoice_desc": "Manage employee reimbursements and billing records.",
+    "invoice_empty": "No invoice records found.",
+    "payrolls_title": "Salary Adjustments History", "performance_title": "Performance Reviews",
+    "promotions_title": "Smart Promotion Engine", "promotions_desc": "AI-driven talent review based on performance, compliance, and tenure.",
+    "employees_title": "All Employees List", "recruitment_title": "Recruitment & Hiring",
+    "adjustment_records": "Adjustment Records"
+  },
+  "table": {
+    "employee": "Employee", "type": "Type", "duration": "Duration", "reason": "Reason",
+    "status": "Status", "actions": "Actions", "date": "Date", "amount": "Amount",
+    "category": "Category", "level": "Level", "department": "Department",
+    "invoice_no": "INVOICE NO",
+    "review_cycle": "Review Cycle", "rating": "Rating", "comments": "Comments", "evaluator": "Evaluator",
+    "candidate_name": "CANDIDATE NAME", "promotion_path": "PROMOTION PATH", "tenure_level": "TENURE (LEVEL)",
+    "recent_ratings": "RECENT RATINGS", "engine_reason": "ENGINE REASON",
+    "level_change": "Level Change", "salary_change": "Salary Change"
+  },
+  "buttons": {
+    "new_project": "+ New Project", "run_engine": "Run Engine", "export_report": "Export Report",
+    "add_review": "+ Add New Review", "add_employee": "+ Add New Employee",
+    "job_openings": "Job Openings", "candidates_board": "Candidates Board",
+    "new_invoice": "+ New Invoice"
+  },  
+  "dynamic": {
+    "status_paid": "Paid", "status_pending": "Pending", "status_rejected": "Rejected",
+    "status_open": "Open", "status_closed": "Closed", "stage_sourced": "Sourced",
+    "stage_interviewing": "Interviewing", "stage_offered": "Offered",
+    "btn_arrange_interview": "Arrange Interview", "btn_send_offer": "Send Offer",
+    "btn_convert_employee": "Convert to Employee", "empty_jobs": "No job openings found.",
+    "click_run_engine": "Click \"Run Engine\" to discover promotion candidates.",
+    "no_adjustment_records": "No adjustment records found.",
+    "no_eligible_candidates": "No eligible candidates found for this cycle based on the current policy."
+  }
+}

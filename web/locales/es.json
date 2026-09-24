@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ Invitar" },
+  "menu": {
+    "dashboard": "Panel", "projects": "Proyectos", "calendar": "Calendario",
+    "leave_management": "Ausencias", "settings": "Configuración",
+    "notification": "Notificaciones", "help": "Centro de ayuda",
+    "team_management": "GESTIÓN DE EQUIPO", "performance": "Rendimiento",
+    "smart_promotions": "Promociones", "payrolls": "Nóminas",
+    "invoices": "Facturas", "employees": "Empleados", "recruitment": "Contratación"
+  },
+  "dashboard": {
+    "quick_search": "Búsqueda rápida...", "total_employees": "Total de empleados",
+    "fulltime": "Tiempo completo", "freelance": "Autónomo",
+    "attendance_overview": "Resumen de asistencia", "performance_ratings": "Calificaciones",
+    "export_data": "Exportar datos"
+  },
+  "invoice": {
+    "total_expenses": "Gastos Totales", "pending_approvals": "Pendientes",
+    "total_paid": "Total Pagado"
+  },
+  "pages": {
+    "projects_title": "Proyectos", "projects_empty": "No hay proyectos.",
+    "calendar_title": "Calendario", "leave_title": "Gestión de ausencias",
+    "settings_title": "Configuración", "settings_backup": "Copia de seguridad",
+    "settings_backup_desc": "Copia de seguridad de la base de datos.",
+    "settings_backup_btn": "Hacer copia ahora", "notification_title": "Notificaciones",
+    "notification_empty": "No hay notificaciones.", "help_title": "Centro de soporte",
+    "invoice_title": "Facturas Financieras", "invoice_desc": "Gestione reembolsos.",
+    "invoice_empty": "No hay facturas.",
+    "payrolls_title": "Historial de ajustes salariales", "performance_title": "Evaluaciones de rendimiento",
+    "promotions_title": "Motor de Promociones", "promotions_desc": "Revisión de talento impulsada por IA.",
+    "employees_title": "Lista de Empleados", "recruitment_title": "Contratación",
+    "adjustment_records": "Registros de Ajustes"
+  },
+  "table": {
+    "employee": "Empleado", "type": "Tipo", "duration": "Duración", "reason": "Motivo",
+    "status": "Estado", "actions": "Acciones", "date": "Fecha", "amount": "Cantidad",
+    "category": "Categoría", "level": "Nivel", "department": "Departamento",
+    "invoice_no": "Nº FACTURA",
+    "review_cycle": "Ciclo de Eval.", "rating": "Calificación", "comments": "Comentarios", "evaluator": "Evaluador",
+    "candidate_name": "CANDIDATO", "promotion_path": "RUTA PROMOCIÓN", "tenure_level": "ANTIGÜEDAD (NIVEL)",
+    "recent_ratings": "NOTAS RECIENTES", "engine_reason": "MOTIVO DE IA",
+    "level_change": "Cambio de Nivel", "salary_change": "Cambio de Salario"
+  },
+  "buttons": {
+    "new_project": "+ Nuevo Proyecto", "run_engine": "Ejecutar Motor", "export_report": "Exportar Informe",
+    "add_review": "+ Nueva Evaluación", "add_employee": "+ Nuevo Empleado",
+    "job_openings": "Ofertas", "candidates_board": "Candidatos",
+    "new_invoice": "+ Nueva Factura"
+  },  
+  "dynamic": {
+    "status_paid": "Pagado", "status_pending": "Pendiente", "status_rejected": "Rechazado",
+    "status_open": "Abierto", "status_closed": "Cerrado", "stage_sourced": "Contactado",
+    "stage_interviewing": "Entrevista", "stage_offered": "Oferta enviada",
+    "btn_arrange_interview": "Organizar Entrevista", "btn_send_offer": "Enviar Oferta",
+    "btn_convert_employee": "Convertir a Empleado", "empty_jobs": "No hay ofertas de trabajo.",
+    "click_run_engine": "Haga clic en 'Ejecutar Motor' para descubrir candidatos.",
+    "no_adjustment_records": "No se encontraron registros de ajustes salariales.",
+    "no_eligible_candidates": "No se encontraron candidatos elegibles para este ciclo."
+  }
+}

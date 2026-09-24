@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ 招待" },
+  "menu": {
+    "dashboard": "ダッシュボード", "projects": "プロジェクト", "calendar": "カレンダー",
+    "leave_management": "休暇管理", "settings": "設定",
+    "notification": "通知", "help": "ヘルプセンター",
+    "team_management": "チーム管理", "performance": "パフォーマンス",
+    "smart_promotions": "スマート昇進", "payrolls": "給与",
+    "invoices": "請求書・経費", "employees": "従業員", "recruitment": "採用"
+  },
+  "dashboard": {
+    "quick_search": "クイック検索...", "total_employees": "総従業員数",
+    "fulltime": "正社員", "freelance": "フリーランス",
+    "attendance_overview": "勤怠概要", "performance_ratings": "パフォーマンス評価",
+    "export_data": "データ出力"
+  },
+  "invoice": {
+    "total_expenses": "総経費", "pending_approvals": "承認待ち",
+    "total_paid": "支払済総額"
+  },
+  "pages": {
+    "projects_title": "プロジェクト", "projects_empty": "プロジェクトがありません。",
+    "calendar_title": "カレンダー", "leave_title": "休暇管理",
+    "settings_title": "設定", "settings_backup": "システムバックアップ",
+    "settings_backup_desc": "データベースをローカルに安全にバックアップします。",
+    "settings_backup_btn": "今すぐバックアップ", "notification_title": "通知",
+    "notification_empty": "新しい通知はありません。", "help_title": "ヘルプ＆サポート",
+    "invoice_title": "財務請求書", "invoice_desc": "経費精算と請求記録を管理します。",
+    "invoice_empty": "請求書の記録が見つかりません。",
+    "payrolls_title": "給与改定履歴", "performance_title": "パフォーマンスレビュー",
+    "promotions_title": "スマート昇進エンジン", "promotions_desc": "パフォーマンスと勤続年数に基づくAI人材評価。",
+    "employees_title": "全従業員リスト", "recruitment_title": "採用",
+    "adjustment_records": "給与改定記録"
+  },
+  "table": {
+    "employee": "従業員", "type": "タイプ", "duration": "期間", "reason": "理由",
+    "status": "ステータス", "actions": "アクション", "date": "日付", "amount": "金額",
+    "category": "カテゴリー", "level": "レベル", "department": "部署",
+    "invoice_no": "請求書番号",
+    "review_cycle": "評価サイクル", "rating": "評価", "comments": "コメント", "evaluator": "評価者",
+    "candidate_name": "候補者名", "promotion_path": "昇進パス", "tenure_level": "勤続年数/レベル",
+    "recent_ratings": "直近の評価", "engine_reason": "推奨理由",
+    "level_change": "職級変更", "salary_change": "給与変更"
+  },
+  "buttons": {
+    "new_project": "+ 新規プロジェクト", "run_engine": "分析を実行", "export_report": "レポート出力",
+    "add_review": "+ 新規レビュー追加", "add_employee": "+ 従業員追加",
+    "job_openings": "求人", "candidates_board": "候補者ボード",
+    "new_invoice": "+ 新規請求書"
+  },  
+  "dynamic": {
+    "status_paid": "支払済", "status_pending": "保留中", "status_rejected": "却下",
+    "status_open": "オープン", "status_closed": "クローズ", "stage_sourced": "スカウト済",
+    "stage_interviewing": "面接中", "stage_offered": "内定",
+    "btn_arrange_interview": "面接を調整", "btn_send_offer": "オファー送信",
+    "btn_convert_employee": "従業員に変換", "empty_jobs": "求人が見つかりません。",
+    "click_run_engine": "「分析を実行」をクリックして昇進候補者を検索します。",
+    "no_adjustment_records": "給与改定の記録は見つかりませんでした。",
+    "no_eligible_candidates": "現在のポリシーに基づき、今サイクルの適格な候補者は見つかりませんでした。"
+  }
+}

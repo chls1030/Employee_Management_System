@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ Meghívás" },
+  "menu": {
+    "dashboard": "Vezérlőpult", "projects": "Projektek", "calendar": "Naptár",
+    "leave_management": "Szabadságok", "settings": "Beállítások",
+    "notification": "Értesítések", "help": "Súgó",
+    "team_management": "CSAPATKEZELÉS", "performance": "Teljesítmény",
+    "smart_promotions": "Előléptetések", "payrolls": "Bérszámfejtés",
+    "invoices": "Számlák", "employees": "Alkalmazottak", "recruitment": "Toborzás"
+  },
+  "dashboard": {
+    "quick_search": "Keresés...", "total_employees": "Összes alkalmazott",
+    "fulltime": "Teljes munkaidős", "freelance": "Szabadúszó",
+    "attendance_overview": "Jelenlét", "performance_ratings": "Értékelések",
+    "export_data": "Exportálás"
+  },
+  "invoice": {
+    "total_expenses": "Összes kiadás", "pending_approvals": "Függőben",
+    "total_paid": "Kifizetve"
+  },
+  "pages": {
+    "projects_title": "Projektek", "projects_empty": "Nincsenek projektek.",
+    "calendar_title": "Naptár", "leave_title": "Szabadságkezelés",
+    "settings_title": "Beállítások", "settings_backup": "Rendszermentés",
+    "settings_backup_desc": "Adatbázis mentése.",
+    "settings_backup_btn": "Mentés most", "notification_title": "Értesítések",
+    "notification_empty": "Nincsenek új értesítések.", "help_title": "Támogatás",
+    "invoice_title": "Számlák", "invoice_desc": "Visszatérítések kezelése.",
+    "invoice_empty": "Nincsenek számlák.",
+    "payrolls_title": "Bérmódosítások előzményei", "performance_title": "Teljesítményértékelések",
+    "promotions_title": "Előléptetési Motor", "promotions_desc": "MI-vezérelt tehetségértékelés.",
+    "employees_title": "Alkalmazottak listája", "recruitment_title": "Toborzás",
+    "adjustment_records": "Módosítási Nyilvántartások"
+  },
+  "table": {
+    "employee": "Alkalmazott", "type": "Típus", "duration": "Időtartam", "reason": "Ok",
+    "status": "Állapot", "actions": "Műveletek", "date": "Dátum", "amount": "Összeg",
+    "category": "Kategória", "level": "Szint", "department": "Osztály",
+    "invoice_no": "SZÁMLASZÁM",
+    "review_cycle": "Ciklus", "rating": "Értékelés", "comments": "Megjegyzések", "evaluator": "Értékelő",
+    "candidate_name": "JELÖLT", "promotion_path": "ELŐLÉPTETÉSI ÚT", "tenure_level": "MUNKAVISZONY(SZINT)",
+    "recent_ratings": "LEGUTÓBBI ÉRTÉKELÉS", "engine_reason": "MI INDOKA",
+    "level_change": "Szint Változás", "salary_change": "Fizetés Változás"
+  },
+  "buttons": {
+    "new_project": "+ Új projekt", "run_engine": "Motor indítása", "export_report": "Jelentés exportálása",
+    "add_review": "+ Új értékelés", "add_employee": "+ Új alkalmazott",
+    "job_openings": "Nyitott pozíciók", "candidates_board": "Jelölt Tábla",
+    "new_invoice": "+ Új számla"
+  },  
+  "dynamic": {
+    "status_paid": "Fizetve", "status_pending": "Függőben", "status_rejected": "Elutasítva",
+    "status_open": "Nyitott", "status_closed": "Lezárva", "stage_sourced": "Felkutatva",
+    "stage_interviewing": "Interjú", "stage_offered": "Ajánlat küldve",
+    "btn_arrange_interview": "Interjú egyeztetése", "btn_send_offer": "Ajánlat küldése",
+    "btn_convert_employee": "Alkalmazottá alakítás", "empty_jobs": "Nincsenek nyitott pozíciók.",
+    "click_run_engine": "Kattintson a 'Motor Indítása' gombra a jelöltek felfedezéséhez.",
+    "no_adjustment_records": "Nem találhatók bérfejlesztési rekordok.",
+    "no_eligible_candidates": "Nem találhatók jogosult jelöltek ebben a ciklusban."
+  }
+}

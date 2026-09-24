@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ Einladen" },
+  "menu": {
+    "dashboard": "Dashboard", "projects": "Projekte", "calendar": "Kalender",
+    "leave_management": "Urlaub", "settings": "Einstellungen",
+    "notification": "Benachrichtigungen", "help": "Hilfe",
+    "team_management": "TEAM-MANAGEMENT", "performance": "Leistung",
+    "smart_promotions": "Beförderungen", "payrolls": "Gehalt",
+    "invoices": "Rechnungen", "employees": "Mitarbeiter", "recruitment": "Recruiting"
+  },
+  "dashboard": {
+    "quick_search": "Suche...", "total_employees": "Mitarbeiter gesamt",
+    "fulltime": "Vollzeit", "freelance": "Freiberuflich",
+    "attendance_overview": "Anwesenheit", "performance_ratings": "Leistungsbewertungen",
+    "export_data": "Daten exportieren"
+  },
+  "invoice": {
+    "total_expenses": "Gesamtausgaben", "pending_approvals": "Ausstehend",
+    "total_paid": "Bezahlt"
+  },
+  "pages": {
+    "projects_title": "Projekte", "projects_empty": "Keine Projekte.",
+    "calendar_title": "Kalender", "leave_title": "Urlaubsverwaltung",
+    "settings_title": "Einstellungen", "settings_backup": "System-Backup",
+    "settings_backup_desc": "Datenbank lokal sichern.",
+    "settings_backup_btn": "Jetzt sichern", "notification_title": "Benachrichtigungen",
+    "notification_empty": "Keine neuen Benachrichtigungen.", "help_title": "Support-Center",
+    "invoice_title": "Rechnungen", "invoice_desc": "Rückerstattungen verwalten.",
+    "invoice_empty": "Keine Rechnungen.",
+    "payrolls_title": "Verlauf Gehaltsanpassungen", "performance_title": "Leistungsbeurteilungen",
+    "promotions_title": "Smart-Beförderungs-Engine", "promotions_desc": "KI-gesteuerte Talentprüfung.",
+    "employees_title": "Mitarbeiterliste", "recruitment_title": "Personalbeschaffung",
+    "adjustment_records": "Anpassungsdatensätze"
+  },
+  "table": {
+    "employee": "Mitarbeiter", "type": "Typ", "duration": "Dauer", "reason": "Grund",
+    "status": "Status", "actions": "Aktionen", "date": "Datum", "amount": "Betrag",
+    "category": "Kategorie", "level": "Level", "department": "Abteilung",
+    "invoice_no": "RECHNUNGS-NR",
+    "review_cycle": "Zyklus", "rating": "Bewertung", "comments": "Kommentare", "evaluator": "Bewerter",
+    "candidate_name": "KANDIDAT", "promotion_path": "BEFÖRDERUNGSWEG", "tenure_level": "ZUGEHÖRIGKEIT (LEVEL)",
+    "recent_ratings": "AKTUELLE BEWERTUNG", "engine_reason": "KI-GRUND",
+    "level_change": "Level-Änderung", "salary_change": "Gehaltsänderung"
+  },
+  "buttons": {
+    "new_project": "+ Neues Projekt", "run_engine": "Engine ausführen", "export_report": "Bericht exportieren",
+    "add_review": "+ Neue Bewertung", "add_employee": "+ Neuer Mitarbeiter",
+    "job_openings": "Offene Stellen", "candidates_board": "Kandidaten-Board",
+    "new_invoice": "+ Neue Rechnung"
+  },  
+  "dynamic": {
+    "status_paid": "Bezahlt", "status_pending": "Ausstehend", "status_rejected": "Abgelehnt",
+    "status_open": "Offen", "status_closed": "Geschlossen", "stage_sourced": "Gefunden",
+    "stage_interviewing": "Im Interview", "stage_offered": "Angebot gesendet",
+    "btn_arrange_interview": "Interview vereinbaren", "btn_send_offer": "Angebot senden",
+    "btn_convert_employee": "In Mitarbeiter umwandeln", "empty_jobs": "Keine offenen Stellen.",
+    "click_run_engine": "Klicken Sie auf 'Engine ausführen', um Kandidaten zu finden.",
+    "no_adjustment_records": "Keine Gehaltsanpassungen gefunden.",
+    "no_eligible_candidates": "Für diesen Zyklus wurden keine geeigneten Kandidaten gefunden."
+  }
+}

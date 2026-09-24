@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ Inviter" },
+  "menu": {
+    "dashboard": "Tableau de bord", "projects": "Projets", "calendar": "Calendrier",
+    "leave_management": "Congés", "settings": "Paramètres",
+    "notification": "Notifications", "help": "Centre d'aide",
+    "team_management": "GESTION D'ÉQUIPE", "performance": "Performances",
+    "smart_promotions": "Promotions IA", "payrolls": "Paies",
+    "invoices": "Factures", "employees": "Employés", "recruitment": "Recrutement"
+  },
+  "dashboard": {
+    "quick_search": "Recherche...", "total_employees": "Total employés",
+    "fulltime": "Temps plein", "freelance": "Indépendant",
+    "attendance_overview": "Aperçu des présences", "performance_ratings": "Évaluations",
+    "export_data": "Exporter"
+  },
+  "invoice": {
+    "total_expenses": "Dépenses Totales", "pending_approvals": "En attente",
+    "total_paid": "Total Payé"
+  },
+  "pages": {
+    "projects_title": "Projets", "projects_empty": "Aucun projet trouvé.",
+    "calendar_title": "Calendrier", "leave_title": "Gestion des congés",
+    "settings_title": "Paramètres", "settings_backup": "Sauvegarde système",
+    "settings_backup_desc": "Sauvegardez votre base de données.",
+    "settings_backup_btn": "Sauvegarder", "notification_title": "Notifications",
+    "notification_empty": "Aucune notification.", "help_title": "Support",
+    "invoice_title": "Factures", "invoice_desc": "Gérez les remboursements.",
+    "invoice_empty": "Aucune facture.",
+    "payrolls_title": "Historique des salaires", "performance_title": "Évaluations des performances",
+    "promotions_title": "Moteur de Promotions", "promotions_desc": "Évaluation des talents par l'IA.",
+    "employees_title": "Liste des Employés", "recruitment_title": "Recrutement",
+    "adjustment_records": "Dossiers d'Ajustement"
+  },
+  "table": {
+    "employee": "Employé", "type": "Type", "duration": "Durée", "reason": "Raison",
+    "status": "Statut", "actions": "Actions", "date": "Date", "amount": "Montant",
+    "category": "Catégorie", "level": "Niveau", "department": "Département",
+    "invoice_no": "N° FACTURE",
+    "review_cycle": "Cycle d'Évaluation", "rating": "Note", "comments": "Commentaires", "evaluator": "Évaluateur",
+    "candidate_name": "NOM DU CANDIDAT", "promotion_path": "VOIE DE PROMOTION", "tenure_level": "ANCIENNETÉ (NIVEAU)",
+    "recent_ratings": "NOTES RÉCENTES", "engine_reason": "RAISON (IA)",
+    "level_change": "Chgt Niveau", "salary_change": "Chgt Salaire"
+  },
+  "buttons": {
+    "new_project": "+ Nouveau Projet", "run_engine": "Lancer le Moteur", "export_report": "Exporter Rapport",
+    "add_review": "+ Ajouter Évaluation", "add_employee": "+ Ajouter Employé",
+    "job_openings": "Offres d'emploi", "candidates_board": "Candidats",
+    "new_invoice": "+ Nouvelle Facture"
+  },  
+  "dynamic": {
+    "status_paid": "Payé", "status_pending": "En attente", "status_rejected": "Rejeté",
+    "status_open": "Ouvert", "status_closed": "Fermé", "stage_sourced": "Recherché",
+    "stage_interviewing": "En entretien", "stage_offered": "Offre envoyée",
+    "btn_arrange_interview": "Organiser entretien", "btn_send_offer": "Envoyer l'offre",
+    "btn_convert_employee": "Convertir en Employé", "empty_jobs": "Aucune offre trouvée.",
+    "click_run_engine": "Cliquez sur 'Lancer le Moteur' pour découvrir les candidats.",
+    "no_adjustment_records": "Aucun dossier d'ajustement salarial trouvé.",
+    "no_eligible_candidates": "Aucun candidat éligible trouvé pour ce cycle."
+  }
+}

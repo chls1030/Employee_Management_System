@@ -1,0 +1,61 @@
+{
+  "header": { "invite": "+ دعوة" },
+  "menu": {
+    "dashboard": "الرئيسية", "projects": "المشاريع", "calendar": "التقويم",
+    "leave_management": "الإجازات", "settings": "الإعدادات",
+    "notification": "الإشعارات", "help": "المساعدة",
+    "team_management": "إدارة الفريق", "performance": "الأداء",
+    "smart_promotions": "الترقيات الذكية", "payrolls": "الرواتب",
+    "invoices": "الفواتير", "employees": "الموظفين", "recruitment": "التوظيف"
+  },
+  "dashboard": {
+    "quick_search": "بحث...", "total_employees": "إجمالي الموظفين",
+    "fulltime": "دوام كامل", "freelance": "عمل حر",
+    "attendance_overview": "الحضور", "performance_ratings": "تقييمات الأداء",
+    "export_data": "تصدير"
+  },
+  "invoice": {
+    "total_expenses": "النفقات", "pending_approvals": "قيد الانتظار",
+    "total_paid": "المدفوع"
+  },
+  "pages": {
+    "projects_title": "المشاريع", "projects_empty": "لا توجد مشاريع.",
+    "calendar_title": "التقويم", "leave_title": "إدارة الإجازات",
+    "settings_title": "الإعدادات", "settings_backup": "نسخ احتياطي",
+    "settings_backup_desc": "نسخ قاعدة البيانات.",
+    "settings_backup_btn": "نسخ الآن", "notification_title": "الإشعارات",
+    "notification_empty": "لا جديد.", "help_title": "الدعم",
+    "invoice_title": "الفواتير", "invoice_desc": "إدارة النفقات.",
+    "invoice_empty": "لا توجد فواتير.",
+    "payrolls_title": "تاريخ تعديلات الرواتب", "performance_title": "مراجعات الأداء",
+    "promotions_title": "محرك الترقيات", "promotions_desc": "تقييم بالذكاء الاصطناعي.",
+    "employees_title": "قائمة الموظفين", "recruitment_title": "التوظيف",
+    "adjustment_records": "سجلات التعديل"
+  },
+  "table": {
+    "employee": "الموظف", "type": "النوع", "duration": "المدة", "reason": "السبب",
+    "status": "الحالة", "actions": "الإجراءات", "date": "التاريخ", "amount": "المبلغ",
+    "category": "الفئة", "level": "المستوى", "department": "القسم",
+    "invoice_no": "رقم الفاتورة",
+    "review_cycle": "دورة التقييم", "rating": "التقييم", "comments": "تعليقات", "evaluator": "المُقَيِّم",
+    "candidate_name": "اسم المرشح", "promotion_path": "مسار الترقية", "tenure_level": "المدة (المستوى)",
+    "recent_ratings": "التقييمات الأخيرة", "engine_reason": "سبب المحرك",
+    "level_change": "تغيير المستوى", "salary_change": "تغيير الراتب"
+  },
+  "buttons": {
+    "new_project": "+ مشروع جديد", "run_engine": "تشغيل المحرك", "export_report": "تصدير التقرير",
+    "add_review": "+ تقييم جديد", "add_employee": "+ موظف جديد",
+    "job_openings": "الوظائف", "candidates_board": "المرشحين",
+    "new_invoice": "+ فاتورة جديدة"
+  },  
+  "dynamic": {
+    "status_paid": "مدفوع", "status_pending": "قيد الانتظار", "status_rejected": "مرفوض",
+    "status_open": "مفتوح", "status_closed": "مغلق", "stage_sourced": "تم الاستقطاب",
+    "stage_interviewing": "مقابلة", "stage_offered": "تم العرض",
+    "btn_arrange_interview": "ترتيب مقابلة", "btn_send_offer": "إرسال عرض",
+    "btn_convert_employee": "تحويل لموظف", "empty_jobs": "لا توجد وظائف.",
+    "click_run_engine": "انقر على 'تشغيل المحرك' لاكتشاف المرشحين.",
+    "no_adjustment_records": "لم يتم العثور على سجلات تعديل رواتب.",
+    "no_eligible_candidates": "لم يتم العثور على مرشحين مؤهلين لهذه الدورة."
+  }
+}
