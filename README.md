@@ -70,18 +70,11 @@ This project is built with reproducibility in mind. Follow these steps to run th
 ```bash
 git clone https://github.com/chls1030/Employee_Management_System.git
 cd Employee_Management_System
-2. Install dependencies:
-
 pip install -r requirements.txt
-3. Initialize the Database & Seed Mock Data:
-(This will create company.db and populate it with test employees and historical performance data).
-
 python database_setup.py
 python seed_data.py
-4. Launch the Application:
-
 python main_eel.py
-🔮 Future Roadmap (Research & Extension)
+##🔮 Future Roadmap (Research & Extension)
 As part of continuous improvement, the following architectural upgrades are considered:
 Machine Learning Integration: Replacing static programmatic leveling logic (e.g., experience / 2.5) with a lightweight ML model to predict levels based on historical promotion data.
 Cloud Synchronization: Transitioning from local SQLite to AWS RDS/Firebase to support multi-HR concurrent collaboration while preserving the desktop client's speed.
