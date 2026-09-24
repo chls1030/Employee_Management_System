@@ -141,12 +141,7 @@ Enterprise-grade data segregation is enforced via **Role-Based Access Control (R
 
 <br>
 
-**🛡️ Local Data Ownership & Backup**
-Your talent data is never locked in a black box. The system includes built-in local backup functionalities, allowing administrators to securely export the entire SQLite database at any time.
 
-<div align="center">
-  <img src="./github_assets/backup.png" alt="System Backup" width="600">
-</div>
 
 ---
 
