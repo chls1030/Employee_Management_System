@@ -44,20 +44,62 @@ Unlike standard CRUD applications, this system implements complex, real-world co
 
 ## 📸 System Walkthrough
 
-> 💡 **Placeholder for Screenshots:** Replace the links below with your actual image paths to showcase the UI.
-
 <div align="center">
 
-![Global Dashboard](link_to_dashboard_screenshot)
-*Figure 1: Modern Global Dashboard with Real-time Metrics and i18n Support.*
-
+**1. Modern Global Dashboard & i18n Support**
 <br>
+<img src="./assets/dashboard.png" alt="Global Dashboard" width="800"/>
+<br>
+<i>Providing instant workforce insights at a glance, with seamless multi-language (English/Chinese) support.</i>
+<br><br><br>
 
-![Smart Promotion Engine](link_to_promotion_engine_screenshot)
-*Figure 2: The Smart Promotion Engine automatically evaluating candidate eligibility based on continuous performance data.*
+**2. AI Smart Onboarding & Leveling**
+<br>
+<img src="./assets/ai_leveling.png" alt="AI Leveling" width="800"/>
+<br>
+<i>The AI auto-fill button triggers algorithmic base-leveling using Education + Experience constraints, standardizing salary brackets from Day 1.</i>
+<br><br><br>
+
+**3. The Smart Promotion Engine**
+<br>
+<img src="./assets/promotion_engine.png" alt="Promotion Engine" width="800"/>
+<br>
+<i>Automated batch scanning of all eligible employees. Generates human-readable "Engine Reasons" ensuring transparent, data-driven promotion decisions.</i>
 
 </div>
 
+<br>
+<h3>🧩 Comprehensive HR Modules</h3>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/recruitment.png" alt="Recruitment" width="100%">
+      <br>
+      <b>Recruitment Kanban</b><br>
+      <i>Drag-and-drop candidate management tracking hires from sourcing to formal offers.</i>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/performance.png" alt="Performance" width="100%">
+      <br>
+      <b>Performance Reviews</b><br>
+      <i>Continuous tracking of quarterly and annual ratings, feeding directly into the Smart Talent Engine.</i>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/invoices.png" alt="Financial Invoices" width="100%">
+      <br>
+      <b>Financial Invoices</b><br>
+      <i>Integrated employee reimbursement tracking with a clear approval workflow and status indicators.</i>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/employees.png" alt="Employee List" width="100%">
+      <br>
+      <b>Employee Directory</b><br>
+      <i>Centralized personnel management with quick actions for adjusting roles, levels, and status.</i>
+    </td>
+  </tr>
+</table>
 ---
 
 ## 🏗️ System Architecture & Tech Stack
@@ -72,14 +114,39 @@ The system operates on a hybrid architecture, designed specifically for standalo
 | **Database** | `SQLite3` | Lightweight, reliable data persistence with built-in local backup functionalities. |
 | **I18n** | `JSON Locales` | Seamless UI localization supporting English, Chinese, and scalable to other languages. |
 
+<details>
+  <summary><b>🌍 Click to view: Multi-language (i18n) Support in Action</b></summary>
+  <br>
+  <img src="./assets/i18n_menu.png" alt="i18n Menu" width="400">
+  <br><i>Seamlessly switch between English, Chinese, Japanese, French, and more.</i>
+</details>
 ---
 
 ## 🔐 Security & Access Control
 
-Enterprise-grade data segregation is enforced via **Role-Based Access Control (RBAC)**:
+Enterprise-grade data segregation is enforced via **Role-Based Access Control (RBAC)**.
 
-* **Standard Employees:** Limited view strictly restricted to their own personal records.
-* **HR Admins:** Full organizational access with automated audit trails for sensitive compensation changes.
+* **HR Admins:** Full organizational access (recruitment, payroll, promotions).
+* **Standard Employees:** Limited view strictly restricted to their own personal records and tasks.
+
+<details>
+  <summary><b>👀 Click to compare: HR Admin View vs. Employee View</b></summary>
+  <br>
+  <p><b>HR Admin View:</b> Full access to global metrics.</p>
+  <img src="./assets/dashboard.png" alt="HR View" width="800">
+  <br><br>
+  <p><b>Employee View:</b> Restricted dashboard protecting company privacy.</p>
+  <img src="./assets/employee_dashboard.png" alt="Employee View" width="800">
+</details>
+
+<br>
+
+**🛡️ Local Data Ownership & Backup**
+Your talent data is never locked in a black box. The system includes built-in local backup functionalities, allowing administrators to securely export the entire SQLite database at any time.
+
+<div align="center">
+  <img src="./assets/backup.png" alt="System Backup" width="600">
+</div>
 
 ---
 
