@@ -92,3 +92,18 @@ This project is built with reproducibility in mind. Follow these steps to set up
 git clone https://github.com/chls1030/Employee_Management_System.git
 cd Employee_Management_System
 pip install -r requirements.txt
+2. Initialize database & Seed data:
+python database_setup.py
+python seed_data.py
+3. Launch the application:
+python main_eel.py
+🔮 Future Roadmap (Research & Extension)
+As part of continuous improvement, the following architectural upgrades are considered for future releases:
+🧠 Machine Learning Integration: Replacing static programmatic leveling logic with a lightweight ML model to predict appropriate levels based on historical promotion data.
+☁️ Cloud Synchronization: Transitioning from local SQLite to AWS RDS or Firebase to support multi-HR concurrent collaboration while preserving the desktop client's speed.
+📜 Advanced Audit Logging: Implementing a dedicated blockchain-inspired immutable ledger for salary and promotion overrides to guarantee 100% auditability.
+<div align="center">
+<br>
+<i>Designed & Developed by <b>Gao Chengcheng</b></i>
+</div>
+```
